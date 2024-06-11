@@ -15,7 +15,7 @@ import torch
 from langchain_groq import ChatGroq
 
 # Load the large language model
-llm=ChatGroq(temperature=0.2, model_name="llama3-70b-8192", groq_api_key='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')
+llm=ChatGroq(temperature=0.2, model_name="llama3-70b-8192", groq_api_key=os.environ.get('GROQ_KEY'))
 
 
 """Embedding model"""
