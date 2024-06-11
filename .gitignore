@@ -6,9 +6,6 @@ __pycache__/
 # Embedding model cache
 cache/
 
-# Docker
-Dockerfile
-
 # Transformers
 transformers/
 
